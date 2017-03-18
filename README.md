@@ -1,4 +1,4 @@
-# chainsaw
+# chainsaw [![GitHub release](https://img.shields.io/github/release/gusg21/chainsaw.svg)](http://github.com/gusg21/chainsaw) [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)](http://travis-ci.org/gusg21/chainsaw/) [![GitHub issues](https://img.shields.io/github/issues/gusg21/chainsaw.svg)](https://github.com/gusg21/chainsaw/issues) [![GitHub forks](https://img.shields.io/github/forks/gusg21/chainsaw.svg)](https://github.com/gusg21/chainsaw/network) [![GitHub stars](https://img.shields.io/github/stars/gusg21/chainsaw.svg)](https://github.com/gusg21/chainsaw/stargazers) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/gusg21/chainsaw/master/LICENSE) [![Awesomeness](https://img.shields.io/badge/awesomeness-off%20the%20charts-brightgreen.svg)](http://sanger.dk/)
 CSS Stylesheet creator made in pure Python
 
 ## How to
@@ -32,7 +32,7 @@ Then, to make sure everything's going well:
     $ make loader
     -- snip --
 
-That will test two current major functions of chainsaw.
+That will test three current major functions of chainsaw.
 
 ## License
 
