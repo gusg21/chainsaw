@@ -1,6 +1,6 @@
 language: python
 python:
-- "3.6"
+- 3.6
 
 install:
 - make install
@@ -8,3 +8,4 @@ install:
 script:
 - make chainsaw
 - make minify
+- make loader
