@@ -17,6 +17,23 @@ CSS Stylesheet creator made in pure Python
     print(style) # You can get the raw CSS by using the Chainsaw object like a string
 ```
 
+## Installing
+
+To setup/install the requirements for chainsaw:
+
+    $ make install
+
+Then, to make sure everything's going well:
+
+    $ make
+    -- snip --
+    $ make minify
+    -- snip --
+    $ make loader
+    -- snip --
+
+That will test two current major functions of chainsaw.
+
 ## License
 
 Apache License, Version 2.0

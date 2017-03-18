@@ -10,6 +10,9 @@ class Component:
         self.CSS = ""
         self.parseCSS()
 
+    def __repr__(self):
+        return "CSS: \"" + self.CSS + "\""
+
     def parseCSS(self):
         self.CSS = \
         '''\

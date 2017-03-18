@@ -1,4 +1,5 @@
 from src.minify import minify
+from src.load import load
 
 class Chainsaw:
 
@@ -23,3 +24,9 @@ class Chainsaw:
 
     def minify(self):
         self.rawCSS = minify(self.rawCSS)
+        return self.rawCSS
+
+    def load(self, string):
+        components = load(string)
+        for component in components:
+            self.addComponent(component)

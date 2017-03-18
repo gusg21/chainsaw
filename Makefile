@@ -11,6 +11,10 @@ minify:
 	@echo Using the minifier test...
 	python test.py minify
 
+loader:
+	@echo Using the loader test...
+	python test.py loader
+
 install:
 	@echo Installing requirements...
 	@echo No requirements needed.
