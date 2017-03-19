@@ -40,7 +40,7 @@ def minify(css, removeComments=True, keepLayout=False):
         if char in removeNotString and not string: # don't add if on non-string remove list
             continue
 
-        if comment:
+        if comment: # Skip if in comment
             continue
 
         finalCSS += char

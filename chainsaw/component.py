@@ -15,9 +15,10 @@ class Component:
 
     def parseCSS(self):
         self.CSS = \
-        '''\
+'''\
 {} {{
-    {}}}\
+    {}}}
+\
         '''.format(self.to, self.rules)
 
     def addRule(self, *rules):

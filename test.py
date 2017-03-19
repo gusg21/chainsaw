@@ -1,8 +1,4 @@
-from src.chainsaw import *
-from src.component import *
-from src.rule import *
-from src.minify import *
-from src.load import *
+from chainsaw import *
 
 import sys
 
